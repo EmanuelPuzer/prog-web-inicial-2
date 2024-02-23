@@ -1,0 +1,60 @@
+/* comentarios */
+/* podemos crear los archivos css que queramos pero se reciemienda utilizar uno
+Podemos hacer que varios HTML usen un mismo archivo*/
+
+/* Selectores
+
+selector {
+    propiedad: valor;
+    propiedad: valor;
+
+}
+*/
+/* tipos de selectores  -> podemos llamar a las etiquetas de distintas maneras */ 
+
+/*etiqueta*/
+
+h3{
+    color: blue;
+}
+
+p{
+    color: rgb(231, 218, 37);
+}
+
+/*clases*/
+
+.tarjeta{
+    color: red;
+}
+
+/* id */
+
+#texto1{
+    color: yellow;
+}
+
+/*selectores combinados
+    > elemento padre de ese hijo
+    ~ el hermano de otro pero que no esta pegado
+    + elemento hermano de otro (pegadito al lado)
+
+*/
+
+/*ancho de un elemento ->width */
+
+.tarjeta > img{
+    width: 10cm;
+}
+
+.tarjeta > p{
+    background-color: green;
+}
+
+/* img ~ button */
+
+
+
+
+
+
